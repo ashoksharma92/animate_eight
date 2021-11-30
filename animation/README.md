@@ -1,4 +1,6 @@
-Project Title: "Animate the digit 8 with a switch control".
+Project Title:
+
+"Animate the digit 8 with a switch control".
 
 Description:
 
