@@ -1,18 +1,11 @@
 Project Title:
 
-"Animate the digit 8 with a switch control".
+"Animate the digit 8 with a switch control."
 
 Brief Description:
 
 This project creates an animation around the digit, 8, with a tiny green ball rolling over the entire surface of the digit, 8. Also, the project contains a section of operations for switch control. The switch control toggles between two states, "ON" and "OFF". The "ON" state implies the enabling of animation around the digit, 8 and the "OFF" state implies the disabling of animation.
 
-Procedure Explained: 
+Try it:
 
-First,the html file had to be set right, since it is "index.html", through which we access the project. The file contained the sections for "animation of eight" and "toggle switch". The section for  "animation of eight" had to have two logical components "digit 8" and "the rolling tiny ball". The digit, 8 was created by vertical co-incidence of two equivalent circles. The effect of the tiny ball rolling over the entire surface of 8 was created by making two tiny circular balls rolling over the two circles simulteneously, with only one visible at a time, and in each alternate rotatiob, the balls in the upper and lower circles would exchange the mutually exclusive states of visibility and invisibility, creating an illusion of a ball rolling over the entire surface of an 8.
-So, there were 4 divisions for the section. For the section of "toggle switch", the concept of the sliding round button was used, and the core input type used was a checkbox.
-
-In css file, all the styling for the corresponding colors, font styles/ sizes/ families, margin/border/padding, etc. properties were performed. Apart from traditional properties, in case of the rolling balls, the span properties and the play-state properties of the rolling balls also had to be specified because of their specific connection with the action of animation involved in our project. The rotation and translation properties (that come under transformation properties) were also distinctly defined for keyframes of respevtive spinning balls in animation. For sliding switch, various traditional properties like position, background, content, etc. were defined, along with animation- specific properties like transition time period. Various seperate and collective qualities for ON" and "OFF" states of the sliding switch were also mentioned, including the border- curvature properties (named "border-radius") and various transform properties.
-
-In js file, the main focus was on the toggle switch control. The query selector command would help fetch the html elements "dots" (referring to the tiny rolling circles) and the "toggle- button" from index.html. Local objects were created for the "dots". Also,the relationship between the state of the "checkbox" input being checked or unchecked and the running/ stopping condition of the balls' animation was established. The relationship was established such that the "checked" state of the checkbox would cause the display of the toggle- switch to be labeled "ON" with fitting background-color "green" and the animation action would initiate and proceed until the next toggling switch- click. And, the "unchecked" state of the checkbox would cause the display of the toggle- switch to be labeled "OFF" with fitting background-color "red" and the animation action would halt until the next toggling switch- click 
-
-So, above were the details of operations of my project, named "Animate the digit 8 with a switch control". And, the above details of desciption hopefully gave a very clear and transparent idea of how many sections of my project (logical and physical) work together to create the desired results.
+https://jsfiddle.net/ashoksharma92/1xgLby82/9/#&togetherjs=Do9PkKLdVu
